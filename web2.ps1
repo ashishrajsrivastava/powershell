@@ -2,7 +2,7 @@
     #$appConfigFile = "web.config"
     ### Load configuration file
     Write-Host "Loading configuration file $configFile"
-    $configFile = "C:\Users\deeksha.p\Documents\Nexus\Nexus\DEV7.xml"
+    $configFile = "C:\DEV7.xml"
 
     if((Test-Path $configFile) -eq $false)
     {
